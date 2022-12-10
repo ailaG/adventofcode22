@@ -9,7 +9,7 @@ register = 1
 CRT = [ \
 	[ '' for col in range(40)] \
 	for row in range(6) \
-]
+] # yeah in retrospect this should've been a 1d array
 
 def executeCycle(command, value=None):
 	global CRT, cycle, register
